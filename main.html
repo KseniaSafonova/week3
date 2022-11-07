@@ -10,35 +10,23 @@
 
 <style>
     #block {
-        height: 200px;
-        width: 500px;
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
     }
 
-
-    .dark {
+    #lightThemeButton {
         display: none;
-        background-color: darkslateblue;
-        color: cadetblue;
     }
-
-    /* #lightTheme {
-        background-color: darkgrey;
-    } */
 </style>
 
-<select name="" id="select">
-    <option value="">Выбрать тему:</option>
-    <option value="light">Светлая тема</option>
-    <option value="dark">Темная тема</option>
-</select>
+<button id="darkThemeButton">Включить темную тему</button>
+<button id="lightThemeButton">Включить светлую тему</button>
 
-<div id="block"></div>
+<div id="block">
+    <h1 id="text">Text</h1>
+</div>
 
-<!-- </div>
-    <div id="block theme"> -->
-<!-- <div id="lightTheme">Светлая тема</div>
-        <div id="darkTheme">Темная тема</div> -->
-<!-- </div> -->
 <script src="main.js"></script>
 </body>
 
